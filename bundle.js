@@ -6,27 +6,23 @@ var L = require('leaflet');
 L.Icon.Default.imagePath = 'node_modules/leaflet/dist/images/';
  
 // initialize the map
+
+cmAttr = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
+
+
 var map = L.map('map', {
-  scrollWheelZoom: false
+    center: new L.LatLng(31.768942802505826, 35.21461486816406),
+    zoom: 9,
+    attribution: cmAttr
 });
- 
-// set the position and zoom level of the map
-map.setView([47.63, -122.32], 11);
- 
-// set an attribution string
-var attribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>';
- 
-// set the tiles the map will use
-var tiles = 'http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png';
- 
-// create a tileLayer with the tiles, attribution
-var layer = L.tileLayer(tiles, {
-  maxZoom: 18,
-  attribution: attribution
-});
- 
-// add the tile layer to the map
-layer.addTo(map);
+
+L.tileLayer.provider('Stamen.Watercolor').addTo(map);
+
+L.control.layers(baseMaps).addTo(leaflet_map);
+var baseLayers = ['Stamen.Watercolor', 'OpenStreetMap.Mapnik'],
+    overlays = ['OpenWeatherMap.Clouds'];
+
+var layerControl = L.control.layers.provided(baseLayers, overlays).addTo(map);
 
 },{"leaflet":2}],2:[function(require,module,exports){
 /*
