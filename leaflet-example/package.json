@@ -10,5 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "leaflet": "~0.7.2"
+  },
+  "devDependencies": {
+    "beefy": "~1.1.0",
+    "browserify": "~3.33.0"
   }
 }
