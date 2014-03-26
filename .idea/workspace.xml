@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7eee0231-ee39-4de2-9ae3-adbfa5a34679" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle.js" afterPath="$PROJECT_DIR$/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TaxMap.iws" />
@@ -43,19 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="869" selection-end="869" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="16" column="29" selection-start="648" selection-end="648" vertical-scroll-proportion="0.50615114" vertical-offset="0" max-vertical-offset="1980">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tax_map.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tax_map.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tax_map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.57644993" vertical-offset="716" max-vertical-offset="1512">
+            <state line="29" column="1" selection-start="0" selection-end="1577" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="1512">
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
               </folding>
@@ -116,8 +118,8 @@
         <option value="$PROJECT_DIR$/theMap.geojson" />
         <option value="$PROJECT_DIR$/theMap.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/tax_map.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -301,19 +303,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="869" selection-end="869" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tax_map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.57644993" vertical-offset="716" max-vertical-offset="1512">
+        <state line="29" column="1" selection-start="0" selection-end="1577" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="1512">
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="648" selection-end="648" vertical-scroll-proportion="0.50615114" vertical-offset="0" max-vertical-offset="1980">
+          <folding />
         </state>
       </provider>
     </entry>
